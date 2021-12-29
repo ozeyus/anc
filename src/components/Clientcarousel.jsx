@@ -15,8 +15,8 @@ export default class Clientcarousel extends Component {
           slidesToShow: 4,
           slidesToScroll: 2,
           autoplay: true,
-          speed: 2000,
-          autoplaySpeed: 2000,
+          speed: 1000,
+          autoplaySpeed: 1000,
           cssEase: "linear"
         };
     return (
@@ -32,28 +32,28 @@ export default class Clientcarousel extends Component {
           <div>
           <img
             className="d-block"
-            src="/images/BW.png"
+            src="./Images/BW.png"
             alt="Second slide"
           />
           </div>
           <div>
           <img
             className="d-block "
-            src="/images/sterling.png"
+            src="./Images/sterling.png"
             alt="Second slide"
           />
           </div>
           <div>
           <img
             className="d-block"
-            src="/images/JTPS.png"
+            src="./Images/JTPS.png"
             alt="Second slide"
           />
           </div>
           <div>
           <img
             className="d-block "
-            src="/images/SilverbirdGroup.png"
+            src="./Images/SilverbirdGroup.png"
             alt="Second slide"
           />
           </div>
@@ -61,7 +61,7 @@ export default class Clientcarousel extends Component {
           
           <img
             className="d-block w-100"
-            src="/images/grandstream.jpg"
+            src="./Images/grandstream.jpg"
             alt="Second slide"
           />
           </div>
@@ -70,7 +70,7 @@ export default class Clientcarousel extends Component {
           
           <img
             className="d-block "
-            src="/images/trixbox.jpg"
+            src="./Images/trixbox.jpg"
             alt="Second slide"
           />
           </div>
@@ -79,7 +79,7 @@ export default class Clientcarousel extends Component {
           
           <img
             className="d-block"
-            src="/images/elastix.png"
+            src="./Images/elastix.png"
             alt="Second slide"
           />
           </div>

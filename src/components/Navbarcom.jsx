@@ -1,43 +1,23 @@
-import React from "react"
-import 'bootstrap/dist/css/bootstrap.min.css';
-import {Navbar, Container, Nav, NavDropdown,} from "react-bootstrap"
-import  "../Styles/Navbar.css"
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Navbar, Container, Nav } from "react-bootstrap";
+import "../Styles/Navbar.css";
+import { Link } from "react-router-dom";
 
-
-
-function Navbarcom(){
-    return (
-     <div className="Navc">
-         <img
-            className="d-block"
-            src="/images/complete2.png"
-            alt="Second slide"
-          />
-
-    <Navbar bg="primary" variant="dark">
-       <Container>
-          <Navbar.Brand href="#home">
-           <img
-              className="d-block"
-              src="/images/complete2.png"
-              alt="Second slide"
-            />
-          </Navbar.Brand>
-
-           <Nav className="me-auto">
-              <Nav.Link href="#home">HOME</Nav.Link>
-              <Nav.Link href="#features">ABOUT</Nav.Link>
-              <Nav.Link href="#pricing">OUR SERVICES</Nav.Link>
-              <Nav.Link href="#pricing">CONTACT US</Nav.Link>
-           </Nav>
-
+function Navbarcom() {
+  return (
+    <Navbar bg="dark" variant="dark">
+      <Container>
+        <Navbar.Brand href="#home">
+          <img src="./Images/Complete1.png" height="50px" />
+        </Navbar.Brand>
+        <Nav className="me-auto">
+          <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="#features">ABOUT US</Nav.Link>
+          <Nav.Link href="#pricing">SERVICES</Nav.Link>
+        </Nav>
       </Container>
-      
-      </Navbar>
-
-</div>
-    )
-    
-       
-    }
+    </Navbar>
+  );
+}
 export default Navbarcom;
